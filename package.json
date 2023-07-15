@@ -1,15 +1,15 @@
 {
-  "name": "octo-styleguide",
+  "name": "opal3-styleguide",
   "version": "1.0.0",
-  "description": "Octopus Energy styleguide",
+  "description": "opal3 styleguide",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/octoenergy/styleguide.git"
+    "url": "git+https://github.com/opal3/styleguide.git"
   },
-  "author": "octoenergy",
+  "author": "opal3",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/octoenergy/styleguide/issues"
+    "url": "https://github.com/opal3/styleguide/issues"
   },
-  "homepage": "https://github.com/octoenergy/styleguide#readme"
+  "homepage": "https://github.com/opal3/styleguide#readme"
 }
