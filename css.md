@@ -17,7 +17,7 @@
 
 We use SCSS over SASS.
 
-We use [Stylelint](https://stylelint.io/) to ensure that all SASS written conforms to the rules outlined in this document. Any deviation from this will result in failing tests in Circle CI. Therefore, it's important to run these tests locally first. For a full list of the configured Stylelint rules we use, see `src/.stylelintrc` in the consumer site repo.
+We use [Stylelint](https://stylelint.io/) to ensure that all SASS written conforms to the rules outlined in this document. Any deviation from this will result in failing tests. Therefore, it's important to run these tests locally first. For a full list of the configured Stylelint rules we use, see `src/.stylelintrc` in the main repo.
 
 If you think there should be any changes to these, then raise them with the team; this is designed to be easy to use for all.
 
