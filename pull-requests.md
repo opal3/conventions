@@ -17,7 +17,6 @@
 - [Learn our emoji shorthands](#learn-emoji-shorthands)
 - [Acknowledge every review comment](#acknowledge-comments)
 - [When re-requesting reviews, make it clear what has changed](#make-clear-what-has-changed-since-last-review)
-- [Only merge if you have enough buy-in for the change](#only-merge-if-you-have-buy-in)
 - [Further reading](#further-reading)
 
 ## <a name="ensure-you-can-be-identified">Ensure you can be identified from your Github account</a>
@@ -45,8 +44,6 @@ If you want to get an early review while a pull request is still in draft, that'
 By default, wait for the test suite to pass before asking for a review. One of main purposes of the tests (in particular, the
 linting) is to save a reviewer's time by picking up on issues that would otherwise be flagged by a human.
 
-Sometimes unrelated tests '[flake]'. If you think that's what has happened, [rerun the CircleCI workflow from failed] to give them another chance to pass.
-
 The only exceptions to requesting a review with failing tests should be when:
 
 - There are failing tests on the master/main branch that are unrelated to your changes. Try to rebase your branch as soon these
@@ -55,9 +52,6 @@ The only exceptions to requesting a review with failing tests should be when:
   production ready.
 
 In either case, mention in your pull request description why there are failing tests.
-
-[flake]: https://tech.octopus.energy/news/2022/05/23/flakey-python-tests.html
-[rerun the circleci workflow from failed]: https://support.circleci.com/hc/en-us/articles/360050303671-How-To-Rerun-a-Workflow
 
 ## <a name="link-to-ticket">Link to the ticket in the pull request description</a>
 
@@ -259,24 +253,6 @@ If you're not sure, the best thing to do is ask your reviewer what they would li
 sooner you'll get a review, which is good for you too.
 
 [fixup commits]: https://jordanelver.co.uk/blog/2020/06/04/fixing-commits-with-git-commit-fixup-and-git-rebase-autosquash/#fixup-commits
-
-## <a name="only-merge-if-you-have-buy-in">Only merge if you have enough buy-in for the change</a>
-
-One PR approval is not necessarily enough to hit the merge button. You should gain the appropriate level of buy-in for the change.
-
-The more people the change will affect, the more buy-in is needed. For example, if a PR touches code that has a GitHub
-'code owner' group, they'll be automatically tagged for review. While an approval from a code owner is not a hard
-requirement, you should give someone in the group a chance to respond. If you're not sure, contact the relevant person
-or team. Equally, if someone has expressed an interest in what you're working on, it's a sign that they're a stakeholder
-who should be given the opportunity to be involved.
-
-For potentially contentious pull requests, it's best to publicize it and wait a few days before merging.
-Even this might not always be enough: if the original author of the code is on holiday, you should consider waiting until they return.
-
-Certain pull requests hinge on a matter of preference. If that's the case, consider conducting a poll to gauge what people think.
-
-Sometimes it's hard to know whose buy-in you might need: if that's the case, just ask someone more experienced
-to help you identify who to involve.
 
 ## Further reading
 
