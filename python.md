@@ -45,7 +45,7 @@ General Python:
 - [Application logic in interface layer](#application-logic-in-interface-layer)
 - [Don't do nothing silently](#dont-do-nothing-silently)
 - [Docstrings vs comments](#docstrings)
-- [Prefer American English for naming modules and objects](#naming-language)
+- [Prefer New Zealand English for naming modules and objects](#naming-language)
 
 Testing:
 
@@ -1289,11 +1289,9 @@ Related reading:
 
 - <http://stackoverflow.com/questions/19074745/python-docstrings-descriptions-vs-comments>
 
-### <a name="naming-language">Prefer American English for naming modules and objects</a>
+### <a name="naming-language">Prefer New Zealand English for naming modules and objects</a>
 
-When naming objects like modules, classes, functions and variables, prefer American English. Eg, use serializers.py instead of serialisers.py. This ensures the names in our codebase match those in the wider ecosystem.
-
-UK spellings are fine in comments or docstrings.
+When naming objects like modules, classes, functions and variables, prefer New Zealand English. Eg, use serialisers.py instead of serializers.py. Proper English is more important than matching those in the wider ecosystem.
 
 ## Testing
 
