@@ -11,7 +11,6 @@ technology tentacle of [Octopus Energy Group][group]).
 Contents:
 
 - [Python](python.md)
-- [Python architecture patterns](patterns.md)
 - [Pull Requests](pull-requests.md)
 - [CSS](css.md)
 - [HTML and Django templates](html.md)
