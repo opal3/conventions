@@ -17,5 +17,3 @@ Contents:
 - [HTML and Django templates](html.md)
 - [Email templates](emails.md)
 - [Emoji shorthand](shorthand.md) (used in code-review messages)
-- [Git](git.md)
- 
