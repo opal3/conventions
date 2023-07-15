@@ -70,19 +70,3 @@ Use when you want to propose improvements to the current subject
 Used to indicate that a self-review provides additional context and commentary
 on the changes. Possibly including a recommendation for how to review it (like
 the tasting notes on a fancy bottle of wine or fine cheese)
-
-## In Slack
-
-👀 - "I'm looking at that now"
-
-✅ - PR approved
-
-🏓 - "I've requested changes" or "I've responded to your feedback" (back to you...)
-
-💬 - comments added
-
-🚢 - PR merged (a.k.a. shipped)
-
-🏀 - PR can be merged immediately after passing review (i.e. a "slam dunk" or, more accurately, an "alley oop")
-
-🦆 - I'm "ducking out" (i.e. going to be away from the keyboard for a bit)
